@@ -1,0 +1,43 @@
+@import '../../components/tab.wxss';
+
+.input {
+  height: inherit;
+  line-height: inherit;
+}
+.input-w {
+  width: 11em; 
+}
+
+.date {
+  margin-right: 50rpx;
+}
+
+.user {
+  margin-left: 10rpx;
+  width: 48rpx;
+}
+
+.submit {
+  margin-top: 100rpx;
+}
+.history-wrap {
+  padding-top: 20rpx;
+}
+.history-wrap .title {
+  margin-top: -20rpx;
+}
+.history-item {
+  letter-spacing: 0.74rpx;
+  margin-bottom: 20rpx;
+  padding: 24rpx 36rpx;
+}
+
+.history-line {
+  height: 43rpx;
+  line-height: 43rpx;
+}
+.history-bottom {
+  height: 15vh;
+  padding-top: 10rpx;
+}
+

@@ -1,0 +1,31 @@
+/*字体样式*/
+.fs-18 {
+  font-size: 18rpx;
+}
+.fs-20 {
+  font-size: 20rpx;
+}
+.fs-22 {
+  font-size: 22rpx;
+}
+.fs-24 {
+  font-size: 24rpx;
+}
+.fs-26 {
+  font-size: 26rpx;
+}
+.fs-28 {
+  font-size: 28rpx;
+}
+.fs-30 {
+  font-size: 30rpx;
+}
+.fs-32 {
+  font-size: 32rpx;
+}
+.fs-34 {
+  font-size: 34rpx;
+}
+.fw-b {
+  font-weight: bold;
+}

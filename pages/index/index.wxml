@@ -1,0 +1,23 @@
+<view class="page">
+  <include src="../../components/tab.wxml"/>
+  <include src="../../components/password.wxml"/>
+  <form style="display:{{'tab1'===selectedTab?'block':'none'}}" class="form d-b" bindsubmit="submit">
+    <view wx:if="{{form.$invalidMsg && form.$dirty}}" class="invalid">
+    {{form.$invalidMsg}}
+    </view>
+    <view class="form-title">请输入手机号</view>
+    <view class="form-line">
+      <label class="label">手机</label>
+      <view class="form-control">
+        <input maxlength="11" class="f-1 va-m input" bindblur="validate" type="number" data-name="phone" data-validator="required,phone" confirm-type="next" value="{{phone}}" />
+        <icon wx:if="{{form.phone!==undefined}}" type="{{form.phone?'warn':'success'}}" size="16" />
+      </view>
+    </view>
+    <button form-type="submit" loading="{{submiting}}" disabled="{{submiting}}" class="submit lg-btn info-btn">提交</button>
+  </form>
+
+  <view class="history-wrap" style="display:{{'tab2'===selectedTab?'block':'none'}}">
+    暂无数据
+  </view>
+</view>
+

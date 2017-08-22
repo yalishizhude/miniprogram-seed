@@ -1,0 +1,35 @@
+button {
+  border-color: none;
+}
+/*横条按钮*/
+.lg-btn {
+  height: 94rpx;
+  line-height: 94rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+}
+/*蓝色按钮*/
+.info-btn {
+  background-color: #4980eb;
+  color: #fff;
+}
+/*遮罩层*/
+.mask {
+  background-color: rgba(0,0,0,.3);
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+/*页面背景*/
+.page {
+  background-color: #efeff4;
+  min-height: 100vh;
+  width: 100vw;
+}
+@import './form.wxss';
+@import './color.wxss';
+@import './property.wxss';
+@import './font.wxss';

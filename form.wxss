@@ -1,0 +1,59 @@
+/*表单公用样式*/
+.form {
+  display: block;
+  font-size: 28rpx;
+  position: relative;
+}
+.form-title {
+  box-sizing: border-box;
+  background-color: #efefef;
+  color: #838383;
+  font-size: 28rpx;
+  padding: 31rpx;
+  min-height: 90rpx;
+}
+.form-line {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  font-size: 34rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  display: flex;
+  padding: 0 31rpx;
+}
+.label {
+  color: #545454;
+  display: inline-block;
+  min-width: 6em;
+}
+.form-control {
+  flex: 1;
+  height: 100%;
+  display: flex;
+}
+.form-control icon {
+  font-size: inherit;
+  vertical-align: middle;
+  width: 40rpx;
+}
+.invalid {
+  color: #fff;
+  background-color: #e94f4f;
+  text-align: center;
+  padding: 10rpx 0;
+  font-size: 30rpx;
+  transition: height;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+.form .lg-btn {
+  margin-left: 31rpx;
+  margin-right: 31rpx;
+}
+.form input {
+  height: inherit;
+  line-height: inherit;
+}

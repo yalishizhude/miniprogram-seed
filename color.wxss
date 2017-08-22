@@ -1,0 +1,65 @@
+/*颜色样式*/
+
+/*背景*/
+.bc-f {
+  background-color: #fff;
+}
+.bc-primary {
+  background-color: #4980eb;
+}
+
+/*字体颜色*/
+.c-37 {
+  color: #373737;
+}
+.c-48 {
+  color: #484848;
+}
+.c-54 {
+  color: #545454;
+}
+.c-76 {
+  color: #767676;
+}
+.c-83 {
+  color: #838383;
+}
+.c-89 {
+  color: #898989;
+}
+.c-9a {
+  color: #9a9a9a;
+}
+.c-9c {
+  color: #9c9c9c;
+}
+.c-9d {
+  color: #9d9d9d;
+}
+.c-b2 {
+  color: #b2b2b2;
+}
+.c-b5 {
+  color: #b5b5b5;
+}
+.c-d {
+  color: #ddd;
+}
+.c-danger {
+  color: red;
+}
+.c-ef {
+  color: #efefef;
+}
+.c-f {
+  color: #fff;
+}
+.c-link {
+  color: #59cbff;
+}
+.c-warn {
+  color: #ffb400;
+}
+.c-wx {
+  color: #0db513;
+}

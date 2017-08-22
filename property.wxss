@@ -1,0 +1,93 @@
+/*常用属性样式*/
+
+.br-50 {
+  border-radius: 50%;
+}
+.bs-bb {
+  box-sizing: border-box;
+}
+
+
+.c-b {
+  clear: both;
+}
+
+
+.d-b {
+  display: block;
+}
+.d-f {
+  display: flex;
+}
+.d-ib {
+  display: inline-block;
+}
+.d-n {
+  display: none;
+}
+
+
+.f-1 {
+  flex: 1;
+}
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+.fd-c {
+  flex-direction: column;
+}
+
+.m-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.o-h {
+  overflow: hidden;
+}
+
+
+.p-a {
+  position: absolute;
+}
+.p-f {
+  position: fixed;
+}
+.p-r {
+  position: relative;
+}
+
+
+.ta-c {
+  text-align: center;
+}
+.to-e {
+  text-overflow: ellipsis;
+}
+
+.ta-l {
+  text-align: left;
+}
+.ta-r {
+  text-align: right;
+}
+
+
+.va-b {
+  vertical-align: bottom;
+}
+.va-m {
+  vertical-align: middle;
+}
+.va-t {
+  vertical-align: top;
+}
+
+
+.ws-n {
+  white-space: nowrap;
+}

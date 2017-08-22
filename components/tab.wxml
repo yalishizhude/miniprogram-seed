@@ -1,0 +1,4 @@
+<view class="d-f tab ta-c bc-f p-f">
+  <text wx:for="{{tabList}}" bindtap="tabClick" wx:key="id" class="tab-item {{selectedTab===item.id?'active':''}}" data-id="{{item.id}}" data-name="{{item.name}}">{{item.name}}</text>
+</view>
+<view class="tab-h-90"></view>

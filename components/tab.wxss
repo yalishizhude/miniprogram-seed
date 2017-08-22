@@ -1,0 +1,27 @@
+.tab-item {
+  flex: 1;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 30rpx;
+}
+.tab-item.active {
+  color: #4781f1;
+  border-bottom: 5rpx solid #4781f1;
+}
+.tab {
+  width: 100vw;
+  top: 0;
+  left: 0;
+  height: 90rpx;
+  z-index: 5;
+}
+.tab-h-90 {
+  height: 90rpx;
+}
+.form {
+  position: static;
+}
+.invalid {
+  position: fixed;
+  top: 90rpx;
+}
