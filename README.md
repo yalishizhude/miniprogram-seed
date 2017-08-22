@@ -15,4 +15,4 @@
 更多内容请关注微信订阅号“web学习社”
 
 
-![](./images/code.jpg)
+![](./images/wx.jpg)
