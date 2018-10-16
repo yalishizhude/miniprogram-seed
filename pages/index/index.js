@@ -37,9 +37,9 @@ let page = {
     // 因blur事件在click事件之后触发，避免未校验直接提交
     validateRequired(['phone'], self)
     if(''===self.data.form.$invalidMsg) {
-      console.log('invalid')
-    } else {
       console.log('valid')
+    } else {
+      console.log('invalid')
     }
   }
 }
